@@ -48,7 +48,7 @@ export default function RechargePage() {
         <Info className="h-5 w-5 text-primary mt-0.5 shrink-0" />
         <div>
           <p className="font-medium text-primary">充值说明</p>
-          <p className="text-sm text-muted-foreground">仅限会员用户充值，普通用户请直接购买卡密使用。</p>
+          <p className="text-sm text-muted-foreground">充值会在一个工作日内到账，加急请直接联系客服。</p>
         </div>
       </div>
 
