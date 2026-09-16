@@ -177,7 +177,7 @@ export default function MyDockPage() {
           )}
         </div>
         <Textarea
-          placeholder="粘贴你自己账号的对接码密钥（只有会员账号有，购买卡密时会送）"
+          placeholder="粘贴你自己账号的对接码密钥（应卡商要求，专属对接必须满足账户历史充值总额大于等于30，因此3元和15元卡密无法对接。如需对接请购买30元卡密，直接赠送会员资格。普通卡密如果历史充值大于30元，或找客服充值补满30元后，即可获得账户对应的对接码密钥以及会员资格）"
           value={cookie}
           onChange={(e) => {
             setCookie(e.target.value)
