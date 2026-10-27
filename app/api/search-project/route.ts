@@ -11,7 +11,7 @@ import { type NextRequest, NextResponse } from "next/server"
 // PHPSESSID 和 sl-session 两个值，替换下面这一行即可，然后重新部署。
 // Cookie 失效时，搜索会返回「登录状态已失效」，此时更新即可。
 // ============================================================================
-const HAOZHUMA_COOKIE = "PHPSESSID=ficrma0v7d0oh4qo10m91561e5; sl-session=VPufepnrWGoU/oG+94OLpQ=="
+const HAOZHUMA_COOKIE = "sl-session=vfdNZbOU4WpcrN3rwbNUHQ=="
 
 const HAOZHUMA_BASE = "https://h5.haozhuma.com"
 
